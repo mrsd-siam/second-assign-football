@@ -1,0 +1,149 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+
+/* ---------
+Menu bar styles
+------------- */
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+}
+.upper-bg{
+    background-color: #2D25A0;
+    padding-top: 10px;
+}
+
+#login-button{
+    position: relative;
+    left: 450px;
+}
+
+/* ------------
+1st Part Styles 
+---------------*/
+
+
+.sec-a div{
+    padding-top: 25px;
+    background-color: #2D25A0;
+    padding-bottom: 50px;
+}
+
+.banner-pic img{
+    width: 556px;
+    position: relative;
+    right: 140px;
+
+}
+
+.sec-a-parts{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    
+}
+.sec-a-parts h1{
+    padding: 50px;
+    margin: 50px;
+    position: relative;
+    left: 60px;
+    bottom: 55px;
+}
+
+.sec-a-parts a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 160px;
+    bottom: 115px;
+}
+
+/* ------------
+Button Styles
+------------- */
+.buttons {
+    background-color: #e02c6d;
+    Padding: 12px 25px;
+}
+
+
+/* ----------------
+Second Section (Grid)
+-------------------
+ */
+
+ .sec-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+ .players img{
+     width: 300px;
+     height: 256px;
+     justify-content: center;
+     
+ }
+
+ .player-grids{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+    row-gap: 50px;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+ }
+ 
+.players p{
+    text-align: justify;
+}
+
+
+/* ------------
+Third Section
+--------------- */
+
+.sec-c{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    padding-left: 182px;
+}
+
+.sec-c-parts img{
+    width: 567px;
+    margin: 150px;
+}
+
+.sec-c-parts p h1{
+    margin: 100px;
+    
+}
+
+.sec-c-text{
+    font-size: 41px;
+    color: #0A0826;    
+    font-weight: bold;
+}
+
+.sec-c-para{
+    color: #6C6C6C;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.sec-c-parts a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
