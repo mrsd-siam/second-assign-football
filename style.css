@@ -1,8 +1,20 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    overflow-x: hidden;
     
 }
+
+
+/* ~~~~~~~~~~~~
+Hover Effects
+~~~~~~~~~~~ */
+.sec-a:hover .banner-pic{
+    transform: translate(-20px, 0px) scale(1.1);
+    transition: transform 2s;
+   
+}
+
 
 /* ---------
 Menu bar styles
@@ -36,7 +48,7 @@ header a{
 }
 
 .banner-pic img{
-    width: 556px;
+    width: 450px;
     position: relative;
     right: 140px;
 
@@ -50,10 +62,9 @@ header a{
     
 }
 .sec-a-parts h1{
-    padding: 50px;
+    padding: 100px;
     margin: 50px;
     position: relative;
-    left: 60px;
     bottom: 55px;
 }
 
