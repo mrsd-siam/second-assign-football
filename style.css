@@ -147,3 +147,29 @@ Third Section
 }
 
 
+/* -------
+Last Part
+--------- */
+
+.sec-d{
+    display: flex;
+    justify-content: center;
+}
+.last-part img{
+    width: 483px;
+}
+
+.social-icons{
+    color: #969BAB;
+    font-size: larger;    
+}
+
+.social-icons i{
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.last-part{
+    display: flex;
+    justify-content: center;
+}
